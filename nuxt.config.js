@@ -9,6 +9,12 @@ export default {
   //     });
   //   },
   // },
+  targert: "static",
+  ssr: false,
+  generate: {
+    fallback: false,
+  },
+
   head: {
     title: "nuxt2",
     htmlAttrs: {
