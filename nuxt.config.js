@@ -1,15 +1,5 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  // router: {
-  //   extendRoutes(routes, resolve) {
-  //     routes.push({
-  //       name: "form",
-  //       path: "/form",
-  //       component: resolve(__dirname, "pages/formPage.vue"),
-  //     });
-  //   },
-  // },
-  targert: "static",
+  target: "static",
   ssr: false,
   generate: {
     fallback: false,
@@ -45,10 +35,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    "bootstrap-vue/nuxt",
-  ],
+  modules: ["bootstrap-vue/nuxt"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

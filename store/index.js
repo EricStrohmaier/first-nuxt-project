@@ -6,7 +6,17 @@ export const mutations = {
   addReview(state, review) {
     state.reviews.push(review);
   },
-  removeReview(state, review) {
-    state.reviews.splice(state.reviews.indexOf(review), 1);
+};
+export const getters = {
+  getReviews: (state) => {
+    return state.reviews;
+  },
+  filteredReviews: (state) => {
+    return state.reviews.filter((review) => {
+      return (
+        review.serviceName.toLowerCase().includes("m") ||
+        review.businessName.toLowerCase().includes("m")
+      );
+    });
   },
 };
