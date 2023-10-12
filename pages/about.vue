@@ -30,6 +30,9 @@
         I hope I understood the requirements correctly and fulfilled all
         criteria to complete this task. I am looking forward to your feedback.
         LG Eric Strohmaier
+        <a href="https://github.com/EricStrohmaier/first-nuxt-project"
+          >Link to the Github Repo</a
+        >
       </div>
     </div>
   </div>
